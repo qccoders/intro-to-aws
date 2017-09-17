@@ -13,7 +13,7 @@ What is S3? Cloud data storage.  Amazon calls S3 containers "buckets"; these are
 
 Log in to the AWS Management Console, then open the Services menu and select Storage > S3.
 
-![](img/s3-1.png?raw=true)
+![](img/s3-1.png)
 
 Click to create a bucket.
 
