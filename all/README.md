@@ -35,3 +35,42 @@ Modify the HTML file you uploaded to S3 to something like the following:
     </body>
 </html>
 ```
+
+This file will use jQuery to fetch the greeting from our API and display it.
+
+# View the Updated HTML File
+
+Navigate to the updated file in your browser.
+
+![](img/all-1.png)
+
+The API Gateway does not like our cross-origin request.
+
+
+![](img/all-2.png)
+
+Navigate back to the API Gateway settings and select your Gateway, click Actions > Enable CORS.
+
+![](img/all-3.png)
+
+Accept the defaults on the form that appears.
+
+![](img/all-4.png)
+
+Click Yes.
+
+![](img/all-5.png)
+
+Check the output and make sure nothing fails.
+
+![](img/all-6.png)
+
+After enabling CORS the API has to be redeployed.  Click Actions again and select Deploy API.
+
+![](img/all-7.png)
+
+Select the previously created stage and click Deploy.
+
+![](img/all-8.png)
+
+Success!
