@@ -1,10 +1,10 @@
 # Tying it All Together
 
-To bring all of the parts; S3, Lambda, and API Gateway, together, we'll update the HTML file we put on S3 to fetch the greeting from our Lambda via the API Gateway.
+To bring all of the parts (S3, Lambda, and API Gateway) together, we'll update the HTML file we uploaded to S3 to fetch the greeting from our Lambda via the API Gateway.
 
 # Update the S3 HTML File
 
-Modify the HTML file you uploaded to S3 to something like the following:
+Modify the HTML file you uploaded to S3 to something like the following, replacing the ```$.get()``` URL with the URL from your API Gateway:
 
 ```html
 <html>
@@ -46,10 +46,11 @@ Navigate to the updated file in your browser.
 
 The API Gateway does not like our cross-origin request.
 
+Navigate back to the API Gateway console.
 
 ![](img/all-2.png)
 
-Navigate back to the API Gateway settings and select your Gateway, click Actions > Enable CORS.
+Select your Gateway, click Actions > Enable CORS.
 
 ![](img/all-3.png)
 
