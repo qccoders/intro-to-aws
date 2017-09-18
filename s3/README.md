@@ -1,10 +1,3 @@
-# Intro to AWS
-Specifically S3, API Gateway and Lambda.
-
-## Supplemental Reading
-
-Consider reading [AWS in Plain English](https://www.expeditedssl.com/aws-in-plain-english) to better understand what the various AWS products do.
-
 # AWS S3
 
 What is S3? Cloud data storage.  Amazon calls S3 containers "buckets"; these are just named groups of files, like folders but with extra options.
