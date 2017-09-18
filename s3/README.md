@@ -32,9 +32,11 @@ Create an HTML file.  Any file will do, like this:
 
 ```html
 <html>
-    <title>Q-C Coders Intro to AWS</title>
+    <head>
+        <title>Q-C Coders Intro to AWS</title>
+    </head>
     <body>
-        Hello, World!
+        Hello World!
     </body>
 </html>
 ```
