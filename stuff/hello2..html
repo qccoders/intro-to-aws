@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Q-C Coders Intro to AWS</title>
+</head>
+
+<body>
+    <div id="text">
+        Loading...
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.get("https://ki1fcdtbcc.execute-api.us-east-1.amazonaws.com/qccodersstage")
+                .done(function (data) {
+                    $("#text").text(data);
+                })
+                .fail(function(error) {
+                    $("#text").text("Error!");
+                });
+        });
+    </script>
+</body>
+
+</html>

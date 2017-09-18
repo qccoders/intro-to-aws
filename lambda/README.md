@@ -46,4 +46,4 @@ Save your function, then use the Test button to run it.  Expand the results and 
 
 ![](img/l-10.png)
 
-Success! You've created a Lambda function!
+Success! You've created a Lambda function.
